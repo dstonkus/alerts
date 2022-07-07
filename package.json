@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "Alerts",
+  "scripts": {
+    "start": "pm2 start index.js",
+    "dev": "nodemon index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.6",
+    "node-telegram-bot-api": "^0.58.0",
+    "nodemon": "^2.0.19"
+  },
+  "events": {},
+  "devDependencies": {}
+}
